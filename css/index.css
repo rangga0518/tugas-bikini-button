@@ -1,0 +1,448 @@
+* {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+.py-100-50 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.navbar {
+    height: 100%;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand svg {
+    font-size: 40px;
+    margin-right: 5px;
+    color: rgb(255, 74, 82);
+}
+
+.navbar-nav:first-child {
+    justify-content: space-evenly;
+}
+
+.nav-link,
+.nav-contact span {
+    font-size: 15px;
+    color: #000 !important;
+}
+
+.nav-contact,
+.nav-social {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    position: relative;
+}
+
+.nav-contact::after {
+    content: '';
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    border-right: 1px solid rgb(170, 177, 183);
+}
+
+.nav-contact svg,
+.nav-link svg {
+    font-size: 15px;
+    color: rgb(170, 177, 183);
+}
+
+.nav-contact svg {
+    color: rgb(255, 74, 82);
+    margin-right: 5px;
+}
+
+.nav-social .nav-link {
+    margin-left: 5px;
+}
+
+.nav-link:hover,
+.nav-social svg:hover {
+    color: rgb(255, 74, 82) !important;
+}
+
+.header {
+    position: relative;
+    height: 80px;
+}
+
+.welcome:first-child {
+    height: 500px;
+    background-image: url('/img/david-marcu-78A265wPiO4-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome:nth-child(2) {
+    height: 500px;
+    background-image: url('/img/kalen-emsley-uSFOwYo1qEw-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome:last-child {
+    height: 500px;
+    background-image: url('/img/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.tag-line {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tag-line h1 {
+    font-size: 100px;
+    font-style: italic;
+}
+
+.where-you {
+    background-color: rgb(0, 0, 73);
+    padding: 30px 0;
+}
+
+.where-you h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.title-section h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.title-section p {
+    font-size: 15px;
+    color: rgb(170, 177, 183);
+}
+
+.content-section img {
+    width: 100%;
+    height: 250px !important;
+}
+
+.content-img {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.mark {
+    background-color: transparent;
+    padding: 20px 10px;
+}
+
+.content-img a,
+.content-img span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.content-img a:hover {
+    text-decoration: none;
+    color: rgb(30, 198, 182);
+}
+
+.content-img span {
+    background-color: rgb(30, 198, 182);
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.content-img:first-child {
+    background-image: url('/img/index-popular-destination/artem-beliaikin-8AsKha7aIvk-unsplash.jpg');
+}
+
+.content-img:nth-child(2) {
+    background-image: url('/img/index-popular-destination/guilherme-stecanella-_dH-oQF9w-Y-unsplash.jpg');
+}
+
+.content-img:nth-child(3) {
+    background-image: url('/img/index-popular-destination/jamie-fenn-WdQuEEJe-O0-unsplash.jpg');
+}
+
+.content-img:nth-child(4) {
+    background-image: url('/img/index-popular-destination/liam-simpson-umycmizZHn8-unsplash.jpg');
+}
+
+.content-img:nth-child(5) {
+    background-image: url('/img/index-popular-destination/mesut-kaya-bCwgFb-llPs-unsplash.jpg');
+}
+
+.content-img:last-child {
+    background-image: url('/img/index-popular-destination/simon-rae-kSJTEv9w5l4-unsplash.jpg');
+}
+
+.places,
+.tips {
+    border-radius: 0;
+    border: none;
+    background-color: #fff;
+}
+
+.places .card-body {
+    padding: 20px;
+}
+
+.places .card-text {
+    font-size: 13px;
+    color: rgb(170, 177, 183);
+}
+
+.rate-day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stars,
+.rate-day {
+    font-size: 10px;
+    color: rgb(255, 255, 21);
+}
+
+.stars span,
+.rate-day span {
+    margin-left: 5px;
+    color: rgb(170, 177, 183);
+}
+
+.rate-day {
+    color: rgb(170, 177, 183);
+}
+
+#popular-places a {
+    font-size: 15px;
+    padding: 15px 50px;
+    background-color: rgb(255, 74, 82);
+    color: #fff;
+}
+
+#enjoy-video {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/img/index-thumbnail-video/marcin-jozwiak-c14B7e0mnP8-unsplash.jpg');
+    background-size: cover;
+    background-position: bottom center;
+}
+
+#enjoy-video h1 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: rgb(30, 198, 182);
+    display: flex;
+    align-items: center;
+}
+
+.triagle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid #fff;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin-left: 38%;
+    z-index: 2;
+}
+
+.circle::before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(30, 198, 182);
+    transform: scale(1);
+    animation: back-circle 3s steps(100) infinite;
+}
+
+#our-services {
+    background-color: #fff;
+}
+
+#our-services svg {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(255, 74, 82);
+}
+
+#our-services p {
+    font-size: 15px;
+    color: rgb(170, 177, 183);
+}
+
+.user1 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url('/img/index-testi/andriyko-podilnyk-jFAG_ixCrsM-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.user2 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url('/img/index-testi/irina-iriser-T9_NHo5d0pc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.user3 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url('/img/index-testi/valerie-elash-Z5g_6TLS6Ho-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.quote {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    background-color: rgb(30, 198, 182);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.quote svg {
+    font-size: 12px;
+    color: #fff;
+    margin: auto;
+}
+
+.content-tips img {
+    height: 400px;
+}
+
+.content-tips .card-body {
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: rgb(0, 0, 73);
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-address svg {
+    font-size: 40px;
+    color: rgb(255, 74, 82);
+}
+
+.our-address a {
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.our-address a:hover,
+.nav-footer a:hover {
+    text-decoration: none;
+    color: rgb(255, 74, 82);
+}
+
+.our-address p {
+    font-size: 15px;
+}
+
+.nav-footer h6 {
+    font-size: 20px;
+}
+
+.nav-footer a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.ig-pic:first-child {
+    width: 100%;
+    height: 50px;
+    background-image: url('/img/index-popular-places/sangga-rima-roman-selia-wU_YIRdyz1I-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ig-pic:nth-child(2) {
+    width: 100%;
+    height: 50px;
+    background-image: url('/img/index-popular-places/taylor-simpson-a_2DrykebZY-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes back-circle {
+    from {
+        transform: scale(0);
+        background-color: rgb(30, 198, 182);
+    }
+
+    to {
+        transform: scale(1);
+        opacity: .7;
+    }
+}

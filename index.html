@@ -4,16 +4,517 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/all.css">
+    <script src="/javascript/all.js"></script>
 
-    <title>Document</title>
+    <title>Travelo</title>
 </head>
 
 <body>
-
-    <script src="/javascript/bootstrap.js"></script>
+    <header id="header" class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="far fa-compass"></i>Travelo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-2 w-100">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Destination</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Destination Detail</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav w-100 justify-content-end">
+                        <div class="nav-contact">
+                            <i class="fas fa-phone-alt"></i><span>+99-999-999</span>
+                        </div>
+                        <div class="nav-social ml-2">
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item welcome active">
+                <div class="tag-line">
+                    <h1>Indonesia</h1>
+                    <p>Pixel perfect design with awesome content</p>
+                </div>
+            </div>
+            <div class="carousel-item welcome">
+                <div class="tag-line">
+                    <h1>Indonesia</h1>
+                    <p>Pixel perfect design with awesome content</p>
+                </div>
+            </div>
+            <div class="carousel-item welcome">
+                <div class="tag-line">
+                    <h1>Indonesia</h1>
+                    <p>Pixel perfect design with awesome content</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="where-you">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 mt-2">
+                    <h3>Where you want to go?</h3>
+                </div>
+                <div class="col xl-9 col-lg-9 col-md-12 col-sm-12 mt-2">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Where to go?">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn btn-danger">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="popular-destination" class="mt-150">
+        <div class="container">
+            <div class="row title-section justify-content-center">
+                <div class="col-xl-5 col-lg-10 col-md-10 col-sm-12 text-center">
+                    <h3>Popular Destination</h3>
+                    <p class="my-3">Suffered alteration in some form, by injected humour or good day randomised booth
+                        anim 8-bit
+                        hella wolf moon beard words.</p>
+                </div>
+            </div>
+            <div class="row content-section mt-5">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 content-img">
+                    <div class="mark">
+                        <a href="#">Italy</a><span>02 Places</span>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 content-img">
+                    <div class="mark">
+                        <a href="#">Brazil</a><span>10 Places</span>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 content-img">
+                    <div class="mark">
+                        <a href="#">America</a><span>07 Places</span>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 content-img">
+                    <div class="mark">
+                        <a href="#">Nepal</a><span>05 Places</span>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 content-img">
+                    <div class="mark">
+                        <a href="#">Maldives</a><span>02 Places</span>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 content-img">
+                    <div class="mark">
+                        <a href="#">Indonesia</a><span>30 Places</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="popular-places" class="mt-150">
+        <div class="container">
+            <div class="row title-section justify-content-center">
+                <div class="col-xl-5 col-lg-10 col-md-10 col-sm-12 text-center">
+                    <h3>Popular Places</h3>
+                    <p class="my-3">Suffered alteration in some form, by injected humour or good day randomised booth
+                        anim 8-bit
+                        hella wolf moon beard words.</p>
+                </div>
+            </div>
+            <div class="row content-section mt-3">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card places">
+                        <img src="/img/index-popular-places/sangga-rima-roman-selia-wU_YIRdyz1I-unsplash.jpg"
+                            class="card-img-top rounded-0">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold mb-1">California</h5>
+                            <p class="card-text">United State of America</p>
+                            <div class="rate-day">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(20 Review)</span>
+                                </div>
+                                <div class="update">
+                                    <i class="far fa-clock"></i>
+                                    <span>5 Days</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card places">
+                        <img src="/img/index-popular-places/taylor-simpson-a_2DrykebZY-unsplash.jpg"
+                            class="card-img-top rounded-0">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold mb-1">Korola Megna</h5>
+                            <p class="card-text">United State of America</p>
+                            <div class="rate-day">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(20 Review)</span>
+                                </div>
+                                <div class="update">
+                                    <i class="far fa-clock"></i>
+                                    <span>5 Days</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card places">
+                        <img src="/img/index-popular-places/taylor-simpson-QR_6amHtpWs-unsplash.jpg"
+                            class="card-img-top rounded-0">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold mb-1">London</h5>
+                            <p class="card-text">United State of America</p>
+                            <div class="rate-day">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(20 Review)</span>
+                                </div>
+                                <div class="update">
+                                    <i class="far fa-clock"></i>
+                                    <span>5 Days</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card places">
+                        <img src="/img/index-popular-places/taylor-simpson-SHHGwnFLJAk-unsplash.jpg"
+                            class="card-img-top rounded-0">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold mb-1">Miami Beach</h5>
+                            <p class="card-text">United State of America</p>
+                            <div class="rate-day">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(20 Review)</span>
+                                </div>
+                                <div class="update">
+                                    <i class="far fa-clock"></i>
+                                    <span>5 Days</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card places">
+                        <img src="/img/index-popular-places/taylor-simpson-TR3gu5giL6I-unsplash.jpg"
+                            class="card-img-top rounded-0">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold mb-1">California</h5>
+                            <p class="card-text">United State of America</p>
+                            <div class="rate-day">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(20 Review)</span>
+                                </div>
+                                <div class="update">
+                                    <i class="far fa-clock"></i>
+                                    <span>5 Days</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-4">
+                    <div class="card places">
+                        <img src="/img/index-popular-places/taylor-simpson-Yc3NzilnrGM-unsplash.jpg"
+                            class="card-img-top rounded-0">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold mb-1">Saintmartine Iceland</h5>
+                            <p class="card-text">United State of America</p>
+                            <div class="rate-day">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(20 Review)</span>
+                                </div>
+                                <div class="update">
+                                    <i class="far fa-clock"></i>
+                                    <span>5 Days</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <a href="#" class="btn">More Places</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="enjoy-video" class="mt-150">
+        <h1>Enjoy Video</h1>
+        <a href="#play">
+            <div class="circle">
+                <div class="triagle"></div>
+            </div>
+        </a>
+    </section>
+    <section id="our-services" class="py-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mt-4 text-center">
+                    <i class="fas fa-subway"></i>
+                    <h5>Comfortable Journey</h5>
+                    <p>A wonder serenity has taken to the possession of my entire soul.</p>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mt-4 text-center">
+                    <i class="fas fa-hotel"></i>
+                    <h5>Luxuries Hotel</h5>
+                    <p>A wonder serenity has taken to the possession of my entire soul.</p>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mt-4 text-center">
+                    <i class="fas fa-globe-americas"></i>
+                    <h5>Travel Guide</h5>
+                    <p>A wonder serenity has taken to the possession of my entire soul.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner py-100-50">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="user1">
+                                <div class="quote">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <p class="text-center mt-5">Working in conjunction with humanitarian aid agencies, we have
+                                supported programmers to
+                                help
+                                alleviate human suffering.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="user2">
+                                <div class="quote">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <p class="text-center mt-5">Working in conjunction with humanitarian aid agencies, we have
+                                supported programmers to
+                                help
+                                alleviate human suffering.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="user3">
+                                <div class="quote">
+                                    <i class="fa fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <p class="text-center mt-5">Working in conjunction with humanitarian aid agencies, we have
+                                supported programmers to
+                                help
+                                alleviate human suffering.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="tips" class="mt-150">
+        <div class="container">
+            <div class="row title-section justify-content-center">
+                <div class="col-xl-5 col-lg-10 col-md-10 col-sm-12 text-center">
+                    <h3>Recent Tips</h3>
+                </div>
+            </div>
+            <div class="row content-tips mt-5">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card tips">
+                        <img src="/img/index-tips/daniel-jensen-tQpypKA92k8-unsplash.jpg"
+                            class="card-img-top rounded-0">
+                        <div class="card-body">
+                            <small class="text-muted">Oct 12, 2019</small>
+                            <h5 class="card-title text-capitalize font-weight-bold">Journey are best measured in new
+                                friends</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card tips">
+                        <img src="/img/index-tips/echo-grid-rhn-r1IHi0I-unsplash.jpg" class="card-img-top rounded-0">
+                        <div class="card-body">
+                            <small class="text-muted">Oct 12, 2019</small>
+                            <h5 class="card-title text-capitalize font-weight-bold">Journey are best measured in new
+                                friends</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="card tips">
+                        <img src="/img/index-tips/simon-english-48nerZQCHgo-unsplash.jpg"
+                            class="card-img-top rounded-0">
+                        <div class="card-body">
+                            <small class="text-muted">Oct 12, 2019</small>
+                            <h5 class="card-title text-capitalize font-weight-bold">Journey are best measured in new
+                                friends</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer mt-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 our-address my-5">
+                    <a href="#">
+                        <i class="far fa-compass"></i><span class="ml-2">Travelo</span>
+                    </a>
+                    <p class="mt-5">5th flora, 700/D kings road, green lane New York-1782 +99-999-999</p>
+                    <p>contact@carpenter.com</p>
+                </div>
+                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 nav-footer">
+                    <div class="row justify-content-end">
+                        <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 mt-5">
+                            <h6 class="mb-3">Company</h6>
+                            <ul>
+                                <li class="mt-2"><a href="#">Pricing</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mt-5">
+                            <h6>Popular Destination</h6>
+                            <div class="row">
+                                <div class="col mt-3">
+                                    <ul>
+                                        <li><a href="#">Indonesia</a></li>
+                                        <li><a href="#">India</a></li>
+                                        <li><a href="#">Italy</a></li>
+                                        <li><a href="#">Frach</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col mt-3">
+                                    <ul>
+                                        <li><a href="#">America</a></li>
+                                        <li><a href="#">Switzerland</a></li>
+                                        <li><a href="#">Canada</a></li>
+                                        <li><a href="#">England</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-5">
+                            <h6>Instagram</h6>
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ig-pic"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ig-pic"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ig-pic"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ig-pic"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ig-pic"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 ig-pic"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="/javascript/jquery-3.4.1.min.js"></script>
     <script src="/javascript/popper.js"></script>
+    <script src="/javascript/bootstrap.js"></script>
 </body>
 
 </html>
