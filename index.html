@@ -22,7 +22,8 @@
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse justify-content-between position-relative" id="navbarNavDropdown"
+                    style="z-index: 9999; background-color: #fff;">
                     <ul class="navbar-nav ml-2 w-100">
                         <li class="nav-item active">
                             <a class="nav-link" href="/">Home</a>
@@ -531,7 +532,7 @@
             const y = scrollY;
             if (y >= 150) {
                 header.classList.add('fixed-top');
-                header.style.height = '50px';
+                header.style.height = '60px';
             } else {
                 header.classList.remove('fixed-top');
                 header.removeAttribute('style');
