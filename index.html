@@ -25,13 +25,13 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-2 w-100">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="/page/About.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destination</a>
+                            <a class="nav-link" href="/page/Destination.html">Destination</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -39,7 +39,7 @@
                                 Pages
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Destination Detail</a>
+                                <a class="dropdown-item" href="/page/Detail.html">Destination Detail</a>
                             </div>
                         </li>
                     </ul>
@@ -525,6 +525,19 @@
     <script src="/javascript/jquery-3.4.1.min.js"></script>
     <script src="/javascript/popper.js"></script>
     <script src="/javascript/bootstrap.js"></script>
+    <script>
+        const header = document.getElementById('header').childNodes[1];
+        window.onscroll = () => {
+            const y = scrollY;
+            if (y >= 150) {
+                header.classList.add('fixed-top');
+                header.style.height = '50px';
+            } else {
+                header.classList.remove('fixed-top');
+                header.removeAttribute('style');
+            }
+        }
+    </script>
 </body>
 
 </html>

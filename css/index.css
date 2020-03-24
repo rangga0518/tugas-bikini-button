@@ -6,6 +6,10 @@ body {
     background-color: rgb(241, 241, 241);
 }
 
+.fixed-top {
+    animation: fixed-top .3s steps(100);
+}
+
 .mt-150 {
     margin-top: 150px;
 }
@@ -490,6 +494,16 @@ body {
 
 .copyright a:hover {
     text-decoration: none;
+}
+
+@keyframes fixed-top {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
 }
 
 @keyframes back-circle {
