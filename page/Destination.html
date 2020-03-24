@@ -4,17 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/img/compass.png" rel="stylesheet">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/destination.css">
 
-    <title>Document</title>
+    <title>Travelo</title>
 </head>
 
 <body>
-    <div id="header">
-        <a href="" class="title">Travelo</a>
-    </div>
-    <br>
+    <header id="header" class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="far fa-compass"></i>Travelo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between position-relative" id="navbarNavDropdown"
+                    style="z-index: 9999; background-color: #fff;">
+                    <ul class="navbar-nav ml-2 w-100">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/page/About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/page/Destination.html">Destination</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="/page/Detail.html">Destination Detail</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav w-100 justify-content-end">
+                        <div class="nav-contact">
+                            <i class="fas fa-phone-alt"></i><span>+99-999-999</span>
+                        </div>
+                        <div class="nav-social ml-2">
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
     <div class="container">
         <div class="row">
             <div class="col-6">
