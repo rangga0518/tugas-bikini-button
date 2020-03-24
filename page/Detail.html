@@ -8,11 +8,54 @@
     <link rel="stylesheet" href="/css/detail.css">
     <script src="https://kit.fontawesome.com/8f66d68866.js" crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <title>Travelo</title>
 </head>
 
 <body>
-    <header></header>
+    <header id="header" class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="far fa-compass logo-compass"></i>Travelo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-2 w-100">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/page/About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/page/Destination.html">Destination</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="/page/Detail.html">Destination Detail</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav w-100 justify-content-end">
+                        <div class="nav-contact">
+                            <i class="fas fa-phone-alt"></i><span>+99-999-999</span>
+                        </div>
+                        <div class="nav-social ml-2">
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <section>
         <div class="container-fluid">
@@ -87,7 +130,7 @@
 
         <div class="container-fluid">
             <div class="row text-center m-5 p-5">
-                <div class="col-sm-4">
+                <div class="col-sm-4 p-3">
                     <div class="card" style="width: 100%;">
                         <img src="/img/Detail-Card1.jpg" class="card-img-top content-height" alt="...">
                         <div class="card-body">
@@ -110,13 +153,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 p-3">
                     <div class="card" style="width: 100%;">
                         <img src="/img/Detail-Card2.jpg" class="card-img-top content-height" alt="...">
                         <div class="card-body">
                             <div class="row text-left p-1">
                                 <div class="col-sm-12">
-                                    <h3>California</h3>
+                                    <h3>Hawaii</h3>
                                     <h6>United States of America</h6>
                                 </div>
                                 <div class="col-sm-8">
@@ -133,14 +176,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 p-3">
                     <div class="card" style="width: 100%;">
                         <img src="/img/Detail-Card3.jpg" class="card-img-top content-height" alt="...">
                         <div class="card-body">
                             <div class="row text-left p-1">
                                 <div class="col-sm-12">
                                     <h3>London</h3>
-                                    <h6>United States of America</h6>
+                                    <h6>England</h6>
                                 </div>
                                 <div class="col-sm-8">
                                     <i class="fas fa-star fa-xs star-logo"></i>
@@ -161,7 +204,89 @@
         </div>
 
     </section>
+
     <footer>
+        <footer id="footer" class="footer mt-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 our-address my-5">
+                        <a href="#">
+                            <i class="far fa-compass logo-compass"></i><span class="ml-2">Travelo</span>
+                        </a>
+                        <p class="mt-5">5th flora, 700/D kings road, green lane New York-1782 +99-999-999</p>
+                        <p>contact@carpenter.com</p>
+                        <div class="sosmed py-5">
+                            <i class="fab fa-facebook-f m-2"></i>
+                            <i class="fa fa-twitter m-2" aria-hidden="true"></i>
+                            <i class="fa fa-instagram m-2" aria-hidden="true"></i>
+                            <i class="fa fa-pinterest m-2" aria-hidden="true"></i>
+                            <i class="fa fa-youtube m-2" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 nav-footer">
+                        <div class="row justify-content-end">
+                            <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 mt-5">
+                                <h6 class="mb-3">Company</h6>
+                                <ul>
+                                    <li class="mt-2"><a href="#">Pricing</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mt-5">
+                                <h6>Popular Destination</h6>
+                                <div class="row">
+                                    <div class="col mt-3">
+                                        <ul>
+                                            <li><a href="#">Indonesia</a></li>
+                                            <li><a href="#">India</a></li>
+                                            <li><a href="#">Italy</a></li>
+                                            <li><a href="#">French</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col mt-3">
+                                        <ul>
+                                            <li><a href="#">America</a></li>
+                                            <li><a href="#">Switzerland</a></li>
+                                            <li><a href="#">Canada</a></li>
+                                            <li><a href="#">England</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-5">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                        <h6>Instagram</h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                        <img src="/img/Footer-IG.jpg" alt="" class="foto-ig mx-auto py-1">
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                        <img src="/img/Footer-IG.jpg" alt="" class="foto-ig mx-auto py-1">
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                        <img src="/img/Footer-IG.jpg" alt="" class="foto-ig mx-auto py-1">
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                        <img src="/img/Footer-IG.jpg" alt="" class="foto-ig mx-auto py-1">
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                        <img src="/img/Footer-IG.jpg" alt="" class="foto-ig mx-auto py-1">
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                        <img src="/img/Footer-IG.jpg" alt="" class="foto-ig mx-auto py-1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </footer>
     <script src="/javascript/bootstrap.js"></script>
     <script src="/javascript/jquery-3.4.1.min.js"></script>
