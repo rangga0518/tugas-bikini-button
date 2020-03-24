@@ -1,4 +1,4 @@
-#header {
+/* #header {
     padding: 10px;
     width: 100%;
     background: white;
@@ -27,7 +27,7 @@
     height: 40px;
 }
 
-/* Menu Dropdown */
+** Menu Dropdown **
 .mainmenubtn {
     color: black;
     border: none;
@@ -59,4 +59,54 @@
 
 .dropdown:hover .dropdown-child {
     display: block;
+} */
+
+/* Bagian About */
+.about {
+    background-image: url(/img/guilherme1_jpg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
 }
+
+.about h1 {
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 100px;
+}
+
+.about h6 {
+    font-family: 'Concert One', cursive;
+    color: ivory;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+
+#story {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.p_story {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 500px
+}
+
+.foto_travel {
+    padding-left: 100px;
+}
+
+#ft2_france {
+    padding-left: 100px;
+}
+
+.videoatas {
+    margin-top: 80px;
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
