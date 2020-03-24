@@ -10,6 +10,11 @@ body {
     margin-top: 150px;
 }
 
+.mhr {
+    width: 60%;
+    border: .5px solid rgb(0, 0, 156);
+}
+
 .py-100 {
     padding: 100px 0;
 }
@@ -133,6 +138,14 @@ body {
 .where-you h3 {
     color: #fff;
     font-size: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btn-danger {
+    background-color: rgb(255, 74, 82);
+    width: 66.5%;
 }
 
 .title-section h3 {
@@ -300,7 +313,7 @@ body {
     margin: auto;
     background-color: rgb(30, 198, 182);
     transform: scale(1);
-    animation: back-circle 3s steps(100) infinite;
+    animation: back-circle 2s steps(200) infinite;
 }
 
 #our-services {
@@ -421,7 +434,7 @@ body {
 
 .ig-pic:first-child {
     width: 100%;
-    height: 50px;
+    height: 80px;
     background-image: url('/img/index-popular-places/sangga-rima-roman-selia-wU_YIRdyz1I-unsplash.jpg');
     background-size: cover;
     background-position: center;
@@ -429,10 +442,54 @@ body {
 
 .ig-pic:nth-child(2) {
     width: 100%;
-    height: 50px;
+    height: 80px;
     background-image: url('/img/index-popular-places/taylor-simpson-a_2DrykebZY-unsplash.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.ig-pic:nth-child(3) {
+    width: 100%;
+    height: 80px;
+    background-image: url('/img/index-popular-places/taylor-simpson-QR_6amHtpWs-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ig-pic:nth-child(4) {
+    width: 100%;
+    height: 80px;
+    background-image: url('/img/index-popular-places/taylor-simpson-SHHGwnFLJAk-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ig-pic:nth-child(5) {
+    width: 100%;
+    height: 80px;
+    background-image: url('/img/index-popular-places/taylor-simpson-TR3gu5giL6I-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ig-pic:last-child {
+    width: 100%;
+    height: 80px;
+    background-image: url('/img/index-popular-places/taylor-simpson-Yc3NzilnrGM-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+.copyright a {
+    color: rgb(255, 74, 82);
+}
+
+.copyright a:hover {
+    text-decoration: none;
 }
 
 @keyframes back-circle {
