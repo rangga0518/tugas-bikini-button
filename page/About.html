@@ -12,43 +12,51 @@
 </head>
 
 <body>
-    <!-- <div id="header">
-        <img id="compas" src="/img/compass-regular.svg" alt="compas">
-        <h3 id="Travelo">Travelo</h3>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Destination <span class="sr-only">(current)</span></a>
-                    </li>
-                    <div class="dropdown">
-                        <button class="mainmenubtn">Pages </button>
-                        <div class="dropdown-child">
-                            <a href="#">Pages 1</a>
-                            <a href="#">Pages 2</a>
-                            <a href="#">Pages 3</a>
-                            <a href="#">Pages 4</a>
+    <header id="header" class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="far fa-compass"></i>Travelo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between position-relative" id="navbarNavDropdown"
+                    style="z-index: 9999; background-color: #fff;">
+                    <ul class="navbar-nav ml-2 w-100">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/page/About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/page/Destination.html">Destination</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="/page/Detail.html">Destination Detail</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav w-100 justify-content-end">
+                        <div class="nav-contact">
+                            <i class="fas fa-phone-alt"></i><span>+99-999-999</span>
+                        </div>
+                        <div class="nav-social ml-2">
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="nav-item nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
                         </div>
                     </div>
-                    <div class="dropdown">
-                        <button class="mainmenubtn">Blog</button>
-                        <div class="dropdown-child">
-                            <a href="#">Blog 1</a>
-                            <a href="#">Blog 2</a>
-                            <a href="#">Blog 3</a>
-                            <a href="#">Blog 4</a>
-                        </div>
-                    </div>
-                </ul>
+                </div>
             </div>
         </nav>
-    </div> -->
+    </header>
     <div class="about">
         <!-- Ini bagian ABOUT -->
         <h1>About Us</h1><br>
@@ -123,9 +131,86 @@
             </div>
         </div>
     </div>
-    <script src="/javascript/bootstrap.js"></script>
+    <footer id="footer" class="footer mt-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 our-address my-5">
+                    <a href="#">
+                        <i class="far fa-compass"></i><span class="ml-2">Travelo</span>
+                    </a>
+                    <p class="mt-5">5th flora, 700/D kings road, green lane New York-1782 +99-999-999</p>
+                    <p>contact@carpenter.com</p>
+                </div>
+                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 nav-footer">
+                    <div class="row justify-content-end">
+                        <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 mt-5">
+                            <h6 class="mb-3">Company</h6>
+                            <ul>
+                                <li class="mt-2"><a href="#">Pricing</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 mt-5">
+                            <h6>Popular Destination</h6>
+                            <div class="row">
+                                <div class="col mt-3">
+                                    <ul>
+                                        <li><a href="#">Indonesia</a></li>
+                                        <li><a href="#">India</a></li>
+                                        <li><a href="#">Italy</a></li>
+                                        <li><a href="#">Frach</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col mt-3">
+                                    <ul>
+                                        <li><a href="#">America</a></li>
+                                        <li><a href="#">Switzerland</a></li>
+                                        <li><a href="#">Canada</a></li>
+                                        <li><a href="#">England</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-5">
+                            <h6>Instagram</h6>
+                            <div class="row mt-4">
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-4 ig-pic"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-4 ig-pic"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-4 ig-pic"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-4 ig-pic"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-4 ig-pic"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-4 ig-pic"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mhr">
+            <div class="row copyright pb-4">
+                <div class="col text-center">
+                    &copy; 2019 Allright Reserved. <a href="#">Travelo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="/javascript/jquery-3.4.1.min.js"></script>
     <script src="/javascript/popper.js"></script>
+    <script src="/javascript/bootstrap.js"></script>
+    <script>
+        const header = document.getElementById('header').childNodes[1];
+        window.onscroll = () => {
+            const y = scrollY;
+            if (y >= 200) {
+                header.classList.add('fixed-top');
+                header.style.height = '60px';
+            } else {
+                header.classList.remove('fixed-top');
+                header.removeAttribute('style');
+            }
+        }
+    </script>
 </body>
 
 </html>
